@@ -6,6 +6,8 @@
 <img src="images/ktor.png" alt="Ktor" width="50" />
 <img src="images/websocket.png" alt="WebSocket" width="90" />
 
+### *Протестить на Render.com ([тык](https://realtimechat-qzcc.onrender.com))*
+
 ## 📋 Оглавление
 
 - [Возможности](#-возможности)
