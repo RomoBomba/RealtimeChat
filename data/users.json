@@ -1,0 +1,19 @@
+[
+    {
+        "id": "383ce193-c505-4b03-a26b-2e4d92d68bbc",
+        "username": "Роман",
+        "passwordHash": "$2a$10$hKB/vK84r5Vl5CHf1BSLxOEShnAyuL6s.HVcUWXgDlXomFaH049ii",
+        "createdAt": 1776709126099
+    },
+    {
+        "id": "9ff898a2-7c9d-4671-889b-00d8ea707aef",
+        "username": "Иван",
+        "passwordHash": "$2a$10$6RLRwmwHGSUcZ/NI5tjO9eaj1aog43RJyb8hFv9lRTEosr8b/ETUm",
+        "createdAt": 1776710522089
+    },
+    {
+        "id": "9e6b08c6-e874-49a5-b897-16918b0a9195",
+        "username": "Серега",
+        "passwordHash": "$2a$10$pfQVA.GYrswGDvt0xIZe1.NELY0TIssmJmt6mAHauy1dznUPARuyy"
+    }
+]

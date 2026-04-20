@@ -3,13 +3,6 @@ package com.shevs.realtimechat.models
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Message(
-    val username: String,
-    val text: String,
-    val timestamp: Long = System.currentTimeMillis()
-)
-
-@Serializable
 data class UserEvent(
     val username: String,
     val isJoined: Boolean
@@ -18,5 +11,6 @@ data class UserEvent(
 @Serializable
 data class TypingEvent(
     val username: String,
-    val isTyping: Boolean
+    val isTyping: Boolean,
+    val to: String? = null
 )
