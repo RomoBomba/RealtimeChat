@@ -957,7 +957,11 @@
                 ws.close();
                 ws = null;
             }
-            const wsUrl = `ws://${location.host}/ws?token=${encodeURIComponent(token)}`;
+            const protocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsUrl = `${protocol}//${location.host}/ws?token=${encodeURIComponent(token)}`;
+
+            console.log('Connecting to:', wsUrl);
+
             ws = new WebSocket(wsUrl);
             ws.onopen = () => {
                 messageInput.disabled = false;
